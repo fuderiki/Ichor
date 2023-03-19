@@ -44,7 +44,7 @@ Please refer to the respective repositories for instructions on using Ichor with
 
 ## Documentation
 
-For detailed documentation and examples, visit [Ichor Documentation](https://fuderiki.github.io/ichor-docs/). 
+For detailed documentation and examples, visit [Ichor Documentation](https://github.com/fuderiki/Ichor/wiki). 
 
 ## License
 
