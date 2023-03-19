@@ -10,6 +10,7 @@ Ichor is a high-performance AI game algorithms library written in Rust, inspired
 - Seamless integration with game engines through dedicated bindings (C# for Unity and C++ for Unreal)
 - CPU, concurrent, multithreading, and GPU computation support
 - Modular and easy-to-extend design
+- Easily use parts of algorithms to tailor one for your project's specific needs
 
 ## Structure
 
