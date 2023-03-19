@@ -10,6 +10,13 @@ fn euclidean_distance(a: &Node, b: &Node) -> f64 {
     (dx.powi(2) + dy.powi(2)).sqrt()
 }
 
+/*faster to compute euclidean distance if the square root is ommitted*/ 
+fn euclidean_squared_distance(a: &Node, b: &Node) -> f64 {
+    let dx = (a.x - b.x) as f64;
+    let dy = (a.y - b.y) as f64;
+    dx.powi(2) + dy.powi(2)
+}
+
 fn chebyshev_distance(a: &Node, b: &Node) -> f64 {
     let dx = (a.x - b.x).abs() as f64;
     let dy = (a.y - b.y).abs() as f64;
