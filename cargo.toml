@@ -1,0 +1,19 @@
+[package]
+name = "ichor"
+version = "0.1.0"
+edition = "2018"
+authors = ["fuderiki <frederic@designlab.ac>"]
+description = "High-performance AI game algorithms in Rust with C# and C++ bindings for Unity and Unreal"
+license = "MIT"
+
+[dependencies]
+wgpu = "0.10"
+futures = "0.3"
+tokio = { version = "1", features = ["full"] }
+rayon = "1.5"
+
+[build-dependencies]
+shaderc = "0.7"
+
+[features]
+default = []
