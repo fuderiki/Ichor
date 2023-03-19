@@ -1,5 +1,5 @@
 # Ichor
-Ichor: High-performance AI game algorithms in Rust, abstracting complexity for effortless integration. Elegant C# and C++ bindings for your favorit game engine, empowering game devs with divine AI prowess.
+Ichor: High-performance AI game algorithms in Rust, abstracting complexity for effortless integration. Elegant C# and C++ bindings for your favorite game engine, empowering game devs with divine AI prowess.
 
 
 Ichor is a high-performance AI game algorithms library written in Rust, inspired by the blood of the gods in Greek mythology. The goal of Ichor is to abstract away the complexity of AI implementations in a concurrency-free and efficient Rust codebase, allowing game developers to easily integrate powerful AI solutions into their projects.
