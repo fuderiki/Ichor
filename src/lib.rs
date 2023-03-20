@@ -15,18 +15,23 @@ use std::ffi::CString;
 /* ALL is just for test for now */
 
 #[repr(C)]
-pub struct Node { pub x: f32, pub y: f32 }
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct Node {
+    pub id: usize,
+    pub x: f64,
+    pub y: f64,
+}
 
 impl Node {
-    pub fn new(x: f32, y: f32) -> Self {
-        Node { x, y }
+    pub fn new(id:usize, x: f32, y: f32) -> Self {
+        Node {id, x, y }
     }
 }
 
 #[no_mangle]
 pub extern "C" fn node_new(x: c_float, y: c_float) -> *mut Node {
     /* The function to create a new node on the Rust side */
-    let node = Node::new(x as f32, y as f32);
+    let node = Node::new(id as usize, x as f32, y as f32);
     Box::into_raw(Box::new(node))
 }
 
